@@ -1,5 +1,6 @@
 {
-  "name": "mobile-navigation",
-  "about_url": "https://github.com/davidkingham/mobile-navigation"
+  "name": "Mobile Navigation",
+  "about_url": "https://github.com/davidkingham/mobile-navigation",
+  "license_url": "https://github.com/davidkingham/mobile-navigation/blob/master/LICENSE",
   "component": true
 }
