@@ -1,0 +1,76 @@
+/* hide on desktop */
+@media only screen and (min-width:1024px) {
+    div#mobilenav {
+                display: none;
+            }
+}
+
+/* move up compose window on mobile */
+@media only screen and (max-width:1024px) {
+    #reply-control.open.edit-title {
+                margin-bottom: 30px;
+                height: 85%;
+                margin-top: -30px;
+            }
+
+    .timeline-container.timeline-fullscreen.show {
+                margin-bottom: 30px;
+            }
+    #reply-control.open {
+                margin-bottom: 30px;
+            }
+    .docked-composer .docked-editor {
+        margin-bottom: 30px;
+    }
+    #topic-progress {
+        margin-bottom: 33px;
+    }
+}
+
+/* display on ipad in landscape orientation */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+    div#mobilenav {
+                display: block;
+            }
+}
+
+
+div#mobilenav {
+    box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.15);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+    border: none;
+    z-index: 99999999999;
+    background-color: #2A2B2F;
+}
+
+a.app-go-forward {
+    text-align: right;
+    padding: 5px 3%;
+    width: 44%;
+    float: right;
+}
+
+a.app-go-back {
+    text-align: left;
+    padding: 5px 3%;
+    width: 44%;
+    float: left;
+}
+
+a.app-go-back::after {
+    content: 'Back';
+    padding-left: 10px;
+}
+
+a.app-go-forward::before {
+    content: 'Forward';
+    padding-right: 10px;
+}
+
+
